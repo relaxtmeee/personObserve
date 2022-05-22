@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- 
+        Классы с СТИЛЯМИ border-left, border-bottom добавляются в js 
+        при загрузке страницы, поэтому при проверке на адаптивность при ширине миньше 992px 
+        необходимо обновить страницу. 
+        
+        Такое решение я принял, так как пользователь заходит с утройства и его ширина известна сразу 
+        и изменяться она не будет
+
+        Блоки, где есть возможность, генерируются через js
+        ПОнятное дело, что данные будут браться с сервера и их надо будет чуть подправить, 
+        но потом их надо будет вызвать всего по одному разу
+
+    -->
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="container">
+            <div class="data">
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Всего инцидентов
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number">
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+                            </div>
+                            <div class="data-block__percent">
+                                +16
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Высокая важность
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number red">
+                            
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+                            </div>
+                            <div class="data-block__percent">
+                                +8%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Средняя важность
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number orange">
+                            
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+                            </div>
+                            <div class="data-block__percent">
+                                +3%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Всего связей
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number">
+                            
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+
+                            </div>
+                            <div class="data-block__percent">
+                                +2%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Исходящий трафик
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number">
+                            
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+
+                            </div>
+                            <div class="data-block__percent">
+                                -8%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-block">
+                    <div class="data-block__name">
+                        Входящий трафик
+                    </div>
+                    <div class="data-block__numbers">
+                        <div class="data-block__number">
+                            
+                        </div>
+                        <div class="data-block__percents">
+                            <div class="data-arrow">
+
+                            </div>
+                            <div class="data-block__percent">
+                                +16%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    
+    <main>
+        <div class="container">
+            <div class="content">
+                Данные не обнаружены
+            </div>
+        </div>
+    </main>
+
+    <!-- INFO-section -->
+
+    <section class="info">
+        <div class="container">
+
+             <!-- INFO-users -->
+
+            <div class="users">
+                <div class="users-header">
+                    Пользователи по инцидентам
+                </div>
+                <div class="users-table">
+                    <div class="users-table_subheader">
+                        <div class="user-table__name">
+                            Пользователь
+                        </div>
+                        <div class="user-table__incident">
+                            Инциденты
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- INFO-CATEGORY -->
+        
+            <div class="category">
+                
+                <div class="category-header">
+                    Категории сайтов
+                </div>
+
+                <div class="category-table">
+                    <div class="category-table_subheader">
+                        <div class="category-table__name">
+                            Категория
+                        </div>
+                        <div class="category-table__incident">
+                            Количество инцидентов
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+             <!-- INFO-DISCIPLINE -->
+
+            <div class="discipline">
+                
+                <div class="discipline-header">
+                    Дисциплина
+                </div>
+
+                <div class="discipline-table">
+                    <div class="discipline-table_subheader">
+                        <div class="discipline-table__date">
+                            Дата
+                        </div>
+                        <div class="discipline-table__coming">
+                            Приход
+                        </div>
+                        <div class="discipline-table__care">
+                            Уход
+                        </div>
+                        <div class="discipline-table__time">
+                            Рабочее время
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+    <script src="js/bundle.js"></script>
+</html>

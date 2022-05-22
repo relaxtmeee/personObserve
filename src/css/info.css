@@ -1,0 +1,170 @@
+.info
+{
+    margin: 25px 0;
+    display: flex;
+}
+.info > .container
+{
+    width: 100%;
+    display: flex;
+}
+.users, 
+.category, 
+.discipline
+{
+    display: flex;
+    flex-direction: column;
+    width: calc(40% - 20px);
+    margin-right: 30px;
+}
+.discipline
+{
+    margin-right: 0px;
+}
+.users-header, 
+.category-header, 
+.discipline-header
+{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.users-table_subheader, 
+.category-table_subheader,
+.discipline-table_subheader
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #a0a0a0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.users-table__user,
+.category-table__categories
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid #000000;
+}
+.users-table__user-name, 
+.category-table__categories-name,
+.discipline-table__categories-name
+{
+
+}
+.users-table__user-incident, 
+.category-table__categories-incident
+{
+    display: flex;
+}
+.users-table__user-incident__red,
+.users-table__user-incident__orange,
+.users-table__user-incident__green
+{
+    margin-left: 20px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.users-table__user-incident__red-icon,
+.users-table__user-incident__orange-icon,
+.users-table__user-incident__green-icon
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.category-table__categories-incident
+{
+
+}
+.category-table__numbers
+{
+    display: flex;
+}
+.category-table__number
+{
+    display: flex;
+    align-items: center;
+}
+.category-table__percents
+{
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.category-arrow
+{
+    height: 0;
+    font-size: 6px;
+}
+.category-block__percent
+{
+    font-size: 7px;
+    color: #a0a0a0;
+    font-weight: 100;
+    position: relative;
+    top: 4px;
+}
+.discipline-table__categories
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.discipline-table__care,
+.discipline-table__coming
+{
+    width: 17%;
+}
+.discipline-table__care
+{
+    display: flex;
+    justify-content: center;
+}
+.discipline-table__date
+{
+    width: 20%;
+}
+.discipline-table__categories-coming,
+.discipline-table__categories-care
+{
+    display: flex;
+    width: 20%;
+    align-items: baseline;
+}
+.discipline-table__categories-date
+{
+width: 18%;
+}
+.discipline-table__categories-coming__difference,
+.discipline-table__categories-care__difference
+{
+    font-size: 8px;
+    margin-left: 1px;
+}
+.discipline-table__categories-care
+{
+
+} 
+.discipline-table__categories-working
+{  
+    margin-right: 25px;
+    justify-content: end;
+} 

@@ -1,0 +1,50 @@
+.data 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.data-border
+{
+    padding-left: 20px;
+    border-left: 1px solid #808080;
+}
+.data-border992
+{
+    border-left: 0;
+    border-bottom: 1px solid #808080;
+}
+.data-arrow
+{
+    height: 0;
+}
+.data-block__name
+{
+    color: #808080;
+    font-size: 12px;
+}
+.data-block__numbers
+{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+.data-block__number
+{
+    font-weight: 600;
+}
+
+.data-block__percents
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.data-block__percent
+{
+    font-weight: 100;
+    margin-top: 8px;
+}

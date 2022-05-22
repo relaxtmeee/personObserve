@@ -1,0 +1,47 @@
+@media (max-width: 1200px) 
+{ 
+    .info > .container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .users, 
+    .category,
+    .discipline
+    {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 992px) 
+{  
+    .data
+    {
+        flex-wrap: wrap;
+        margin: 20px 0;
+        justify-content: space-around;
+    }
+    .data-block
+    {
+        width: 30%;
+        padding: 5px 0;
+    }
+    .info > .container
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .users, 
+    .category,
+    .discipline
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding-right: 20px;
+    }
+}

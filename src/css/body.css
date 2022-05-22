@@ -1,0 +1,54 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+
+}
+.container
+{
+    max-width: 1840px;
+    margin: 0 40px;
+}
+.red
+{
+    color: #ee144e;
+}
+.orange
+{
+    color: #f1ae00;
+}
+.green
+{
+    color: #8bc834;
+}
+.bgred
+{
+    background: #ee144e;
+}
+.bgorange
+{
+    background: #f1ae00;
+}
+.bggreen
+{
+    background: #8bc834;
+}
+.bgred-zero
+{
+    border: 1px solid #ee144e;
+}
+.bgorange-zero
+{
+    border: 1px solid #f1ae00;
+}
+.bggreen-zero
+{
+    border: 1px solid #8bc834;
+}
